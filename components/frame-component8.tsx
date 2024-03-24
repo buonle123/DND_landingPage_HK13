@@ -5,12 +5,21 @@ const FrameComponent8: NextPage = () => {
   return (
     <div className={styles.rectangleParent}>
       <div className={styles.frameChild} />
-      <div className={styles.frameWrapper}>
-        <button className={styles.ellipseParent}>
-          <img className={styles.chartPinIcon} alt="" src="/Vector.png" />
-        </button>
+      <div className={styles.triangleWrapper} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'absolute', left: 70 }}>
+        <div className={styles.triangle} style={{ position: 'relative' }}>
+          <div className={styles.shapeCollection} style={{ /* Thêm các thuộc tính CSS cho .shapeCollection nếu cần */ }} />
+          <img
+            className={styles.layersIcon}
+            loading="lazy"
+            alt=""
+            src="/Vector.png"
+            style={{ marginBottom: 20 }}
+          />
+        </div>
+        <h3 className={styles.nextjs}>NextJs</h3>
       </div>
-      <h3 className={styles.nextjs}>NextJs</h3>
+
+
 
       <div className={styles.image}>
         <div className={styles.wrapperBlur}>
