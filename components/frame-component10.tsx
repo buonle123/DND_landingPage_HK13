@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import styles from "./frame-component10.module.css";
-
+import Web3 from "web3";
+import { useEffect, useState } from "react";
 const FrameComponent10: NextPage = () => {
   return (
     <section className={styles.educationOrOnlineEducationInner}>
@@ -17,11 +18,12 @@ const FrameComponent10: NextPage = () => {
             <h3 className={styles.contact}>Contact</h3>
           </div>
         </div>
-        <button className={styles.buttonBase}>
+        <button className={styles.buttonBase} style={{ zIndex: 9999 }} onClick={() => console.log('9999')
+        }>
           <div className={styles.text}>Connect Wallet</div>
         </button>
       </div>
-    </section>
+    </section >
   );
 };
 

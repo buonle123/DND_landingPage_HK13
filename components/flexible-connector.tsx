@@ -1,9 +1,19 @@
 import type { NextPage } from "next";
 import styles from "./flexible-connector.module.css";
+import { useState } from "react";
 
 const FlexibleConnector: NextPage = () => {
+  const [isClicked, setIsClicked] = useState(false);
+
+  // Hàm xử lý sự kiện khi nút được bấm vào
+  const handleButtonClick = () => {
+    // Cập nhật trạng thái đã click
+    setIsClicked(!isClicked);
+    console.log('11');
+  };
   return (
-    <section className={styles.flexibleConnector}>
+    <section className={styles.flexibleConnector} style={{}}>
+
       <img className={styles.vectorIcon} alt="" src="/vector.svg" />
       <div className={styles.flexibleConnectorChild} />
       <div className={styles.flexibleConnectorItem} />
