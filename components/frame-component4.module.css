@@ -1,0 +1,121 @@
+.contributors {
+  color: var(--green);
+}
+.meetOurBestContainer {
+  margin: 0;
+  height: 74px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.meetOurBestContributorsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.discoverCollectAnd {
+  margin: 0;
+  width: 783.9px;
+  height: 82.5px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 32px;
+  font-weight: 400;
+  font-family: var(--text-lg-semibold);
+  color: var(--color-lightgray);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameParent {
+  width: 841px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20.299999999999955px;
+  max-width: 100%;
+}
+.animationArchitectIcon {
+  width: 107px;
+  height: 107px;
+  position: relative;
+}
+.animationArchitectWrapper {
+  height: 134.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) 27.799999999999955px;
+  box-sizing: border-box;
+}
+.styleSwitcher,
+.styleSwitcherWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.styleSwitcher {
+  width: 1098px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.styleSwitcherWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) 86.89999999999986px
+    var(--padding-315xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 1350px) {
+  .styleSwitcher {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .styleSwitcherWrapper {
+    padding-left: var(--padding-148xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .meetOurBestContainer {
+    font-size: var(--font-size-29xl);
+    line-height: 43px;
+  }
+  .styleSwitcherWrapper {
+    padding-left: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .meetOurBestContainer {
+    font-size: var(--font-size-17xl);
+    line-height: 32px;
+  }
+  .discoverCollectAnd {
+    font-size: var(--text-lg-semibold-size);
+    line-height: 26px;
+  }
+  .styleSwitcherWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

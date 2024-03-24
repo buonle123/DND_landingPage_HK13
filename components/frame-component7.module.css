@@ -1,0 +1,82 @@
+.frameChild {
+  width: 245px;
+  height: 252px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-300);
+  display: none;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-lavender-200);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 29.1px;
+  left: 29.1px;
+  width: 38.2px;
+  height: 38.2px;
+  z-index: 2;
+}
+.ellipseParent {
+  height: 96px;
+  flex: 1;
+  position: relative;
+}
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-29xl);
+}
+.shyft {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 245px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) var(--padding-7xl) var(--padding-40xl)
+    var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-15xl);
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 450px) {
+  .shyft {
+    font-size: var(--font-size-xl);
+    line-height: 18px;
+  }
+}

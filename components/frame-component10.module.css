@@ -1,0 +1,164 @@
+.dndLearning {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(81.93deg, #8c01fa, #2cd3ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dndLearningWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-0) var(--padding-0);
+}
+.about,
+.blog,
+.contact,
+.course,
+.home {
+  margin: 0;
+  width: 64px;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 64px;
+  flex-shrink: 0;
+}
+.about,
+.blog,
+.contact,
+.course {
+  width: 65px;
+  font-weight: 500;
+  min-width: 65px;
+}
+.blog,
+.contact,
+.course {
+  width: 75px;
+  min-width: 75px;
+}
+.blog,
+.contact {
+  width: 44px;
+  min-width: 44px;
+}
+.contact {
+  width: 85px;
+  min-width: 85px;
+}
+.frameWrapper,
+.homeParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.homeParent {
+  width: 572px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 649px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-dm-sans);
+}
+.text {
+  position: relative;
+  font-size: var(--text-lg-semibold-size);
+  line-height: 28px;
+  font-weight: 600;
+  font-family: var(--text-lg-semibold);
+  color: var(--white);
+  text-align: left;
+}
+.buttonBase {
+  cursor: pointer;
+  border: 2px solid var(--strokelinear1);
+  padding: var(--padding-mid-5) var(--padding-lg);
+  background-color: transparent;
+  width: 174px;
+  border-radius: var(--br-mini);
+  box-shadow: var(--shadow-xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonBase:hover {
+  background-color: var(--color-blueviolet-200);
+  border: 2px solid var(--color-blueviolet-100);
+  box-sizing: border-box;
+}
+.educationOrOnlineEducationInner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1612px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.educationOrOnlineEducationInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-5xl) 107.69999999999982px
+    var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 925px) {
+  .dndLearning {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dndLearning {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .about,
+  .blog,
+  .contact,
+  .course,
+  .home {
+    font-size: var(--text-lg-semibold-size);
+    line-height: 19px;
+  }
+  .homeParent {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,345 @@
+.quickLinks {
+  margin: 0;
+  height: 30px;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.about,
+.blog,
+.category,
+.courses {
+  margin: 0;
+}
+.aboutCoursesCategoryContainer {
+  width: 154px;
+  height: 196px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 50px;
+  font-family: var(--text-lg-semibold);
+  color: var(--color-lavender-100);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.debuggerController,
+.listManager {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listManager {
+  gap: var(--gap-33xl);
+}
+.debuggerController {
+  padding: var(--padding-9xl) var(--padding-0) var(--padding-0);
+}
+.legalInfo {
+  margin: 0;
+  width: 277px;
+  height: 33px;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.badCreditLoans,
+.paydayLoans,
+.shortTermLoans {
+  margin: 0;
+}
+.shortTermLoansContainer {
+  align-self: stretch;
+  height: 196px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 50px;
+  font-family: var(--text-lg-semibold);
+  color: var(--color-lavender-100);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.debuggerController1,
+.legalInfoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.legalInfoParent {
+  align-self: stretch;
+  gap: var(--gap-28xl);
+}
+.debuggerController1 {
+  width: 294px;
+  padding: var(--padding-11xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.signup {
+  margin: 0;
+  width: 262px;
+  height: 70px;
+  position: relative;
+  font-size: inherit;
+  line-height: 95px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.instructor {
+  text-decoration: underline;
+}
+.signupAsAInstructor {
+  margin: 0;
+}
+.student {
+  text-decoration: underline;
+}
+.signin,
+.signupAsAStudent {
+  margin: 0;
+}
+.signupAsAContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 145px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 50px;
+  font-weight: 400;
+  font-family: var(--font-poppins);
+  color: var(--color-lavender-100);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.iterationHandler {
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.contactUs {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 4;
+}
+.expressionResolver {
+  width: 279px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs);
+  box-sizing: border-box;
+}
+.div,
+.phoneIcon1 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 4;
+}
+.phoneIcon1 {
+  height: 19px;
+  width: 19px;
+  overflow: hidden;
+}
+.div {
+  flex: 1;
+  line-height: 18px;
+}
+.componentLinker {
+  width: 307.1px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24.69999999999999px;
+}
+.outputGeneratorChild {
+  width: 16.1px;
+  height: 13.8px;
+  position: relative;
+  z-index: 4;
+}
+.outputGenerator {
+  height: 14.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.soobinnghigmailcom {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 173px;
+  white-space: nowrap;
+  z-index: 4;
+}
+.graphBuilder {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-8xs);
+  gap: 28.899999999999977px;
+}
+.addressLocationMapNavigatioIcon {
+  height: 20px;
+  width: 19.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.phungChiKien {
+  height: 44px;
+  position: relative;
+  line-height: 25px;
+  display: inline-block;
+  z-index: 4;
+}
+.connectionBuilder,
+.eventDispatcher,
+.stringManipulator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectionBuilder {
+  height: 44px;
+  flex-direction: row;
+  gap: 26.100000000000023px;
+}
+.eventDispatcher,
+.stringManipulator {
+  flex-direction: column;
+}
+.eventDispatcher {
+  align-self: stretch;
+  gap: var(--gap-16xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-lightsteelblue-100);
+  font-family: var(--text-lg-semibold);
+}
+.stringManipulator {
+  width: 330px;
+  gap: var(--gap-35xl);
+  max-width: 100%;
+}
+.dataFlowController,
+.debuggerControllerParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.debuggerControllerParent {
+  width: 1378px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dataFlowController {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) 106.69999999999982px
+    var(--padding-15xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 1350px) {
+  .debuggerControllerParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quickLinks {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .aboutCoursesCategoryContainer {
+    font-size: var(--font-size-base);
+    line-height: 40px;
+  }
+  .legalInfo {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .shortTermLoansContainer {
+    font-size: var(--font-size-base);
+    line-height: 40px;
+  }
+  .legalInfoParent {
+    gap: 23px 47px;
+  }
+  .signup {
+    font-size: var(--font-size-3xl);
+    line-height: 76px;
+  }
+  .signupAsAContainer {
+    font-size: var(--text-lg-semibold-size);
+    line-height: 40px;
+  }
+  .iterationHandler {
+    gap: 20px 40px;
+  }
+  .contactUs {
+    font-size: var(--font-size-3xl);
+    line-height: 76px;
+  }
+  .div,
+  .soobinnghigmailcom {
+    font-size: var(--font-size-base);
+    line-height: 14px;
+  }
+  .graphBuilder {
+    flex-wrap: wrap;
+  }
+  .phungChiKien {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+  .eventDispatcher {
+    gap: 17px 35px;
+  }
+  .stringManipulator {
+    gap: 27px 54px;
+  }
+  .dataFlowController {
+    padding-bottom: var(--padding-50xl);
+    box-sizing: border-box;
+  }
+}

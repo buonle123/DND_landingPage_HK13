@@ -1,0 +1,129 @@
+.next {
+  position: absolute;
+  top: 0;
+  left: 354.6px;
+  border-radius: 50%;
+  background-color: var(--color-darkviolet-200);
+  filter: blur(1600px);
+  width: 1040px;
+  height: 1040px;
+}
+.bg {
+  width: 1923px;
+  height: 714px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslateblue-400);
+  display: none;
+  max-width: 100%;
+}
+.fontFamilyFarm {
+  height: 107px;
+  width: 107px;
+  position: relative;
+  z-index: 4;
+}
+.fontFamilyFarmWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.fillFinderChild {
+  width: 57px;
+  height: 57px;
+  position: relative;
+  z-index: 4;
+}
+.fillFinder {
+  width: 1634px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-lavender-300);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.bgParent,
+.lineWrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.lineWrapper {
+  width: 1634px;
+  height: 1px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-xs) var(--padding-0)
+    var(--padding-2xs);
+  max-width: 100%;
+}
+.bgParent {
+  height: 715px;
+  width: 1916px;
+  margin: 0 !important;
+  position: absolute;
+  top: -177.1px;
+  right: -164.3px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslateblue-400);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-356xl) var(--padding-xl) var(--padding-0)
+    var(--padding-3xl);
+  gap: var(--gap-147xl);
+  z-index: 1;
+}
+.frameItem,
+.frameParent {
+  height: 558.9px;
+  max-width: 100%;
+}
+.frameItem {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+}
+.frameParent {
+  position: absolute;
+  top: 777.1px;
+  left: 0;
+  width: 1594.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.masterMastermindIcon {
+  position: absolute;
+  top: 135px;
+  left: 1078.6px;
+  width: 117.8px;
+  height: 120.3px;
+  object-fit: contain;
+  z-index: 2;
+}
+.nextParent {
+  width: 1594.3px;
+  height: 1336px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 82px;
+  left: 157.4px;
+  max-width: 100%;
+}

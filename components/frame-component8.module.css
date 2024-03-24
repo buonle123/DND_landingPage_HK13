@@ -1,0 +1,112 @@
+.frameChild {
+  height: 252px;
+  width: 245px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-300);
+  display: none;
+  z-index: 0;
+}
+.nextjs {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.blurIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 225px;
+  top: 0;
+  transform: scale(4.243);
+}
+.wrapperBlur {
+  position: absolute;
+  top: 348px;
+  left: 0;
+  width: 370px;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.symbolChild,
+.symbolItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304px;
+  height: 389.5px;
+}
+.symbolItem {
+  top: 34px;
+  left: 25px;
+  width: 79px;
+  height: 79px;
+  z-index: 4;
+}
+.imageChild,
+.symbol {
+  position: absolute;
+  top: 0;
+  left: 74px;
+  width: 304px;
+  height: 389.5px;
+}
+.imageChild {
+  top: 633px;
+  left: 87px;
+  width: 328.8px;
+  height: 286.9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameItem,
+.image {
+  position: absolute;
+  margin: 0 !important;
+}
+.image {
+  height: 919.9px;
+  width: 415.8px;
+  right: -170.8px;
+  bottom: -424.9px;
+}
+.frameItem {
+  height: 43px;
+  width: 43px;
+  top: 104px;
+  left: -20px;
+  object-fit: contain;
+  z-index: 2;
+}
+.rectangleParent {
+  height: 252px;
+  width: 245px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-40xl) var(--padding-18xl);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 450px) {
+  .nextjs {
+    font-size: var(--font-size-xl);
+    line-height: 18px;
+  }
+}

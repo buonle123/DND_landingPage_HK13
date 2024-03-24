@@ -1,0 +1,385 @@
+.vectorIcon {
+  position: absolute;
+  top: -118.9px;
+  left: 1124px;
+  width: 21px;
+  height: 10px;
+}
+.flexibleConnectorChild {
+  position: absolute;
+  top: -169px;
+  left: 1567px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue-200);
+  box-shadow: 0 4px 4px rgba(217, 96, 152, 0.25);
+  width: 197px;
+  height: 60px;
+}
+.anchorPoint,
+.flexibleConnectorItem {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.flexibleConnectorItem {
+  top: 530px;
+  left: 392px;
+  border-radius: var(--br-mini);
+  border: 2px solid var(--strokelinear);
+  width: 207px;
+  height: 77px;
+}
+.anchorPoint {
+  top: 326.88px;
+  left: 714.7px;
+  border-radius: var(--br-xl);
+  border-top: 10px solid var(--green);
+  border-left: 10px solid var(--green);
+  width: 55.7px;
+  height: 54.4px;
+  transform: rotate(131.26deg);
+  transform-origin: 0 0;
+}
+.wrapperGroup1000014881Child {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 300px;
+  transform: scale(1.674);
+}
+.wrapperGroup1000014881 {
+  position: absolute;
+  top: -169px;
+  left: -270px;
+  width: 2330px;
+  height: 890px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameChild,
+.groupIcon {
+  position: absolute;
+  top: 0;
+  left: 52px;
+  width: 602px;
+  height: 548px;
+}
+.groupIcon {
+  height: 23.29%;
+  width: 30.78%;
+  top: 23.83%;
+  right: 29.47%;
+  bottom: 52.88%;
+  left: 39.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: calc(100% - 3.4px);
+  width: 84.59%;
+  top: 0;
+  right: 5.69%;
+  bottom: 3.4px;
+  left: 9.72%;
+  z-index: 1;
+}
+.groupIcon1,
+.groupIcon2,
+.groupIcon3,
+.groupIcon4 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon2 {
+  height: 51.98%;
+  width: 100%;
+  top: 48.02%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.groupIcon3,
+.groupIcon4 {
+  height: 93.18%;
+  width: 83.57%;
+  top: 0;
+  right: 5.89%;
+  bottom: 6.82%;
+  left: 10.54%;
+}
+.groupIcon4 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupIcon5,
+.groupIcon6,
+.groupIcon7,
+.groupIcon8 {
+  position: absolute;
+  top: 4.2px;
+  left: 0.5px;
+  width: 55px;
+  height: 3.8px;
+  z-index: 1;
+}
+.groupIcon6,
+.groupIcon7,
+.groupIcon8 {
+  top: 13.9px;
+  left: 1.8px;
+  width: 52.5px;
+}
+.groupIcon7,
+.groupIcon8 {
+  top: 23.5px;
+  left: 3px;
+  width: 50px;
+  height: 3.7px;
+}
+.groupIcon8 {
+  top: 33.1px;
+  left: 4.2px;
+  width: 47.5px;
+}
+.group1,
+.group2,
+.groupIcon10,
+.groupIcon9 {
+  position: absolute;
+  top: 42.7px;
+  left: 5.5px;
+  width: 45px;
+  height: 3.6px;
+  z-index: 1;
+}
+.group1,
+.group2,
+.groupIcon10 {
+  top: 52.3px;
+  left: 6.7px;
+  width: 42.5px;
+}
+.group1,
+.group2 {
+  height: 58.26%;
+  width: 100%;
+  top: 41.64%;
+  right: 0;
+  bottom: 0.1%;
+  left: 0;
+}
+.group1 {
+  height: 11.59%;
+  width: 8.95%;
+  top: 36.44%;
+  right: 84.95%;
+  bottom: 51.97%;
+  left: 6.09%;
+  z-index: 3;
+}
+.groupIcon11 {
+  height: 81.81%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 18.19%;
+  left: 0;
+}
+.groupIcon11,
+.groupIcon12,
+.groupIcon13 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon12 {
+  height: 1.77%;
+  width: 83.81%;
+  top: 72.21%;
+  right: 12.04%;
+  bottom: 26.01%;
+  left: 4.15%;
+  z-index: 1;
+}
+.groupIcon13 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  position: absolute;
+  top: 11.5px;
+  left: 13.4px;
+  width: 3.6px;
+  height: 7.6px;
+  z-index: 1;
+}
+.groupIcon15,
+.groupIcon16 {
+  left: 23.2px;
+}
+.groupIcon16 {
+  height: 24.34%;
+  width: 52.34%;
+  top: 50%;
+  right: 23.7%;
+  bottom: 25.66%;
+  left: 23.96%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.group5,
+.groupIcon17 {
+  position: absolute;
+  height: 17.19%;
+  width: 13.17%;
+  top: 7.96%;
+  right: 64.23%;
+  bottom: 74.85%;
+  left: 22.6%;
+  z-index: 1;
+}
+.groupIcon17 {
+  height: 14.69%;
+  width: 13.27%;
+  top: 51.93%;
+  right: 13.89%;
+  bottom: 33.38%;
+  left: 72.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon18 {
+  height: 16.69%;
+  width: 12.65%;
+  top: 35.43%;
+  right: 39.13%;
+  bottom: 47.89%;
+  left: 48.22%;
+  z-index: 1;
+}
+.groupIcon18,
+.groupIcon19,
+.groupIcon20,
+.groupIcon21 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon19 {
+  height: 81.81%;
+  width: 19.51%;
+  top: 0;
+  right: 80.49%;
+  bottom: 18.19%;
+  left: 0;
+  z-index: 2;
+}
+.groupIcon20,
+.groupIcon21 {
+  height: 18.19%;
+  width: 10.49%;
+  top: 81.81%;
+  right: 49.14%;
+  bottom: 0;
+  left: 40.36%;
+}
+.groupIcon21 {
+  height: 7.96%;
+  width: 30.62%;
+  top: 92.04%;
+  right: 41.36%;
+  left: 28.02%;
+  z-index: 1;
+}
+.group4,
+.groupIcon22 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 51.7px;
+  width: 291.6px;
+}
+.groupIcon22 {
+  height: 7.5%;
+  width: 57.06%;
+  top: 92.5%;
+  right: 42.94%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.group3,
+.groupIcon23 {
+  position: absolute;
+  height: 25.21%;
+  width: 54.89%;
+  top: 22.83%;
+  right: 4.62%;
+  bottom: 51.96%;
+  left: 40.49%;
+  z-index: 3;
+}
+.groupIcon23 {
+  height: 9.26%;
+  width: 15.61%;
+  top: 10.32%;
+  right: 18.04%;
+  bottom: 80.42%;
+  left: 66.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.group {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  width: 625.4px;
+  height: 872.1px;
+  z-index: 1;
+}
+.frameParent {
+  position: absolute;
+  top: 129px;
+  left: 1113px;
+  width: 654px;
+  height: 881.1px;
+  z-index: 4;
+}
+.flexibleConnector {
+  width: 100%;
+  height: 1010.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}

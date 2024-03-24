@@ -1,0 +1,107 @@
+.base {
+  height: 148px;
+  width: 512px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslateblue-300);
+  display: none;
+  max-width: 100%;
+}
+.logicBranchIcon {
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logicBranchIcon,
+.malisa,
+.programmer {
+  position: relative;
+  z-index: 2;
+}
+.malisa {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.programmer {
+  flex: 1;
+  line-height: 18px;
+}
+.programmerWrapper {
+  width: 158px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-lightgray);
+  font-family: var(--text-lg-semibold);
+}
+.controlStructure,
+.outputProcessor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.outputProcessor {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.controlStructure {
+  flex: 1;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-19xl) var(--padding-lgi)
+    var(--padding-0);
+  box-sizing: border-box;
+  min-width: 159px;
+}
+.frameChild {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 2;
+}
+.baseParent,
+.frameWrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  height: 69px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-lgi);
+}
+.baseParent {
+  width: 512px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslateblue-300);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-17xl);
+  gap: var(--gap-9xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 450px) {
+  .malisa {
+    font-size: var(--font-size-xl);
+    line-height: 18px;
+  }
+  .baseParent {
+    flex-wrap: wrap;
+  }
+}

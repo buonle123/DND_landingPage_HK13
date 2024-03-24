@@ -1,0 +1,125 @@
+.courses {
+  color: var(--green);
+}
+.educateInnovateDecentraliz,
+.featuredCourses {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.featuredCourses {
+  align-self: stretch;
+  height: 74.5px;
+  line-height: 54px;
+  font-weight: 700;
+}
+.educateInnovateDecentraliz {
+  height: 82.8px;
+  flex: 1;
+  line-height: 32px;
+  font-weight: 400;
+}
+.alignJustify,
+.divider {
+  display: flex;
+  max-width: 100%;
+}
+.divider {
+  width: 773.9px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-41xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-3xl);
+  color: var(--color-lightgray);
+  font-family: var(--text-lg-semibold);
+}
+.alignJustify {
+  width: 786.8px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 24.799999999999955px;
+}
+.alignmentAlignerIcon {
+  width: 138px;
+  height: 138px;
+  position: relative;
+}
+.row {
+  height: 158.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) 20.799999999999955px;
+  box-sizing: border-box;
+}
+.pathPatcher,
+.pathPatcherWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.pathPatcher {
+  width: 1081.9px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.pathPatcherWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) 37.899999999999864px
+    var(--padding-289xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 1350px) {
+  .pathPatcher {
+    flex-wrap: wrap;
+  }
+  .pathPatcherWrapper {
+    padding-left: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .featuredCourses {
+    font-size: var(--font-size-29xl);
+    line-height: 43px;
+  }
+  .divider {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .pathPatcherWrapper {
+    padding-left: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .featuredCourses {
+    font-size: var(--font-size-17xl);
+    line-height: 32px;
+  }
+  .educateInnovateDecentraliz {
+    font-size: var(--text-lg-semibold-size);
+    line-height: 26px;
+  }
+  .pathPatcherWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
