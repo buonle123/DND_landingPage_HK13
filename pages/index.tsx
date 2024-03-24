@@ -15,11 +15,14 @@ import FrameComponent from "../components/frame-component";
 import DataFlowController from "../components/data-flow-controller";
 import FlexibleConnector from "../components/flexible-connector";
 import styles from "./index.module.css";
+import Header from "../components/header/header";
 
 const EducationOrOnlineEducation: NextPage = () => {
   return (
+    
     <div className={styles.educationOrOnlineEducation}>
-      <div className={styles.label}>Email</div>
+      <Header/>
+      {/* <div className={styles.label}>Email</div>
       <div className={styles.logicBranch}>
         <div className={styles.inputProcessor}>
           <h3 className={styles.faq}>FAQ</h3>
@@ -32,8 +35,12 @@ const EducationOrOnlineEducation: NextPage = () => {
       <header className={styles.comparisonOperator}>
         <h3 className={styles.loans}>Loans</h3>
       </header>
-      <div className={styles.educationOrOnlineEducationChild} />
+      <div className={styles.educationOrOnlineEducationChild} /> */}
       <FrameComponent10 />
+      
+
+      
+
       <div className={styles.findMostExcitingOnlineCourWrapper}>
         <h1 className={styles.findMostExcitingContainer}>
           <p className={styles.findMostExciting}>{`Find Most Exciting `}</p>
@@ -42,8 +49,7 @@ const EducationOrOnlineEducation: NextPage = () => {
       </div>
       <div className={styles.loremIpsumDolorSitAmetCoWrapper}>
         <h3 className={styles.loremIpsumDolor}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor ut labore et dolore.
+          Educate, Innovate, Decentralize: Empowering Minds on Solana!
         </h3>
       </div>
       <div className={styles.educationOrOnlineEducationInner}>
